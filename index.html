@@ -1,15 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profilo Utente</title>
     <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-    <div class="card" id="userCard"></div>
-        <div class="info"></div>
+    <div class="carta-utente">
+        <div class="intestazione-utente">
+            <img id="foto-utente" class="foto-utente" src="" alt="Foto utente">
+            <div>
+                <h1 id="nome-utente" class="nome-utente"></h1>
+                <p id="sesso-utente" class="sesso-utente"></p>
+            </div>
+        </div>
 
-        <script src="static/js/index.js"></script>
+        <div class="dettagli-utente">
+            <div class="voce-dettaglio">
+                <span class="etichetta-dettaglio">Indirizzo:</span>
+                <span id="indirizzo-utente" class="valore-dettaglio"></span>
+            </div>
+            <div class="voce-dettaglio">
+                <span class="etichetta-dettaglio">Email:</span>
+                <span id="email-utente" class="valore-dettaglio"></span>
+            </div>
+            <div class="voce-dettaglio">
+                <span class="etichetta-dettaglio">Telefono:</span>
+                <span id="telefono-utente" class="valore-dettaglio"></span>
+            </div>
+            <div class="voce-dettaglio">
+                <span class="etichetta-dettaglio">Cellulare:</span>
+                <span id="cellulare-utente" class="valore-dettaglio"></span>
+            </div>
+            <div class="voce-dettaglio">
+                <span class="etichetta-dettaglio">Data di nascita:</span>
+                <span id="data-nascita-utente" class="valore-dettaglio"></span>
+            </div>
+            <div class="voce-dettaglio">
+                <span class="etichetta-dettaglio">Registrato dal:</span>
+                <span id="registrato-utente" class="valore-dettaglio"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/index.js"></script>
 </body>
 </html>
